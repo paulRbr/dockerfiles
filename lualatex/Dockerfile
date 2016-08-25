@@ -34,5 +34,4 @@ RUN useradd lualatex \
 USER lualatex
 WORKDIR /data
 
-ENTRYPOINT [ "lualatex" ]
-CMD [""]
+CMD ["lualatex"]
